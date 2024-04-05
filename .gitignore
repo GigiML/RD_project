@@ -1,3 +1,24 @@
 cat/*
 cat.zip
 dataset/*
+# Ignore node_modules directory
+node_modules/
+# Ignore macOS system files
+.DS_Store
+# Ignore logs and temporary files
+*.log
+*.tmp
+# Ignore environment-specific files
+.env
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+# Ignore JupyteNotebook checkpoints
+.ipynb_checkpoints/
+# Ignore IDE specific files
+.idea/
+.vscode/
+# Ignore package-lock.json (npm)
+package-lock.json
+# Ignore yarn.lock (Yarn)
+yarn.lock
